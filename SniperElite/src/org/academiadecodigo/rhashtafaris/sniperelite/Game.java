@@ -36,6 +36,7 @@ public class Game {
                 continue;
             }
             Enemy enemy = new Enemy();
+            System.out.println(gameObject.getMessage());
             this.sniperRifle.shoot(enemy);
         }
     }
