@@ -23,6 +23,6 @@ public class AmouredEnemy extends Enemy {
 
     @Override
     public String getMessage() {
-        return "-----------------I'm an Armoured Enemy. My total health is 200!--------------" + "\n";
+        return "-----------------I'm an Armoured Enemy. 200 HEALTH POINTS!--------------" + "\n";
     }
 }

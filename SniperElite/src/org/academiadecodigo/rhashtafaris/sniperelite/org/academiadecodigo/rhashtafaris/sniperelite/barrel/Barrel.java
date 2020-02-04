@@ -25,7 +25,7 @@ public class Barrel extends GameObject implements Destroyable {
 
     @Override
     public String getMessage() {
-        return "--------------- BARREL READY TO BE SHOT. -------------------" + "\n";
+        return "--------------- BARREL. 80 HEALTH POINTS -------------------" + "\n";
     }
 
     @Override

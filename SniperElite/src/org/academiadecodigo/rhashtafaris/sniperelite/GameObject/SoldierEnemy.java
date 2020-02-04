@@ -9,6 +9,6 @@ public class SoldierEnemy extends Enemy {
 
     @Override
     public String getMessage() {
-        return "----------------- I'm a soldier enemy. My health is 100 -----------------" + "\n";
+        return "----------------- I'm a soldier enemy. 100 HEALTH POINTS -----------------" + "\n";
     }
 }
