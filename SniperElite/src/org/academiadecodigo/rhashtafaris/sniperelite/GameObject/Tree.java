@@ -4,6 +4,6 @@ public class Tree extends GameObject {
 
     @Override
     public String getMessage() {
-        return "Don't shoot me, I'm a tree!";
+        return "-------------- Don't shoot me, I'm a tree! ----------------" + "\n";
     }
 }

@@ -1,13 +1,15 @@
 package org.academiadecodigo.rhashtafaris.sniperelite.GameObject;
 
-public class Enemy extends GameObject {
+import org.academiadecodigo.rhashtafaris.sniperelite.org.academiadecodigo.rhashtafaris.sniperelite.barrel.Destroyable;
+
+public class Enemy extends GameObject implements Destroyable {
 
     private int health;
-    private boolean isDead;
+    private boolean isDestroyed;
 
     public Enemy() {
         this.health = 100;
-        this.isDead = false;
+        this.isDestroyed = false;
     }
 
     @Override
@@ -15,18 +17,17 @@ public class Enemy extends GameObject {
         return null;
     }
 
-    public boolean isDead() {
+    public boolean isDestroyed() {
+
         if (health <= 0) {
-            isDead = true;
+            isDestroyed = true;
         }
-        return isDead;
+        return isDestroyed;
     }
 
     public void hit(int bulletDamage) {
+
         health -= bulletDamage;
         System.out.println("Enemy health is: " + health);
-        if (health <= 0) {
-            System.out.println("You're dead motherFUCKER!");
-        }
     }
 }

@@ -11,7 +11,7 @@ public class AmouredEnemy extends Enemy {
     @Override
     public void hit(int bulletDamage) {
 
-        if (armour > 0) {
+        while (armour > 0) {
             armour -= bulletDamage;
             System.out.println("Armour health is " + armour);
         }
@@ -20,6 +20,6 @@ public class AmouredEnemy extends Enemy {
 
     @Override
     public String getMessage() {
-        return "I'm an Armoured Enemy. My total health is 200!";
+        return "-----------------I'm an Armoured Enemy. My total health is 200!--------------" + "\n";
     }
 }
