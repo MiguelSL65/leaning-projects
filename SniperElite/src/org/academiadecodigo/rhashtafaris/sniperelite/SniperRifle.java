@@ -30,10 +30,13 @@ public class SniperRifle {
             shotsFired++;
             totalShotsFired++;
 
-            System.out.println("Number of shots fired to kill enemy: " + getShotsFired() + ".");
+            System.out.println("Shots fired: " + getShotsFired() + ".");
 
             if (Math.random() < HIT_PROB) {
                 destroyable.hit(bulletDamage);
+                System.out.println("SNIPER: - HIT TARGET!");
+            } else {
+                System.out.println("SNIPER: - OH CRAP! DAMN IT! I MISSED. RELOADING zzzzZZZZZzz");
             }
 
             if (destroyable.isDestroyed()) {

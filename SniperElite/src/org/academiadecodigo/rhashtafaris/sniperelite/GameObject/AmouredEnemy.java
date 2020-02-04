@@ -5,17 +5,20 @@ public class AmouredEnemy extends Enemy {
     private int armour;
 
     public AmouredEnemy() {
-        this.armour = 100;
+        this.armour = 150;
     }
 
     @Override
     public void hit(int bulletDamage) {
 
-        while (armour > 0) {
+        if (armour > 0) {
             armour -= bulletDamage;
             System.out.println("Armour health is " + armour);
+        } else {
+            if (armour == 0) {
+                super.hit(bulletDamage);
+            }
         }
-        super.hit(bulletDamage);
     }
 
     @Override
