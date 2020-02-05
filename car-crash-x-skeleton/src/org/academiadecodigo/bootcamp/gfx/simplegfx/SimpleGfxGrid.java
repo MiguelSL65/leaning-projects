@@ -99,6 +99,8 @@ public class SimpleGfxGrid implements Grid {
      */
     @Override
     public GridPosition makeGridPosition(int col, int row) {
+
+
         return new SimpleGfxGridPosition(col, row, this);
     }
 
@@ -108,7 +110,7 @@ public class SimpleGfxGrid implements Grid {
      * @return y pixel value
      */
     public int rowToY(int row) {
-        return row * CELLSIZE + PADDING;
+        return row * getCellSize() + PADDING;
     }
 
     /**
@@ -117,6 +119,6 @@ public class SimpleGfxGrid implements Grid {
      * @return x pixel value
      */
     public int columnToX(int column) {
-        return column * CELLSIZE + PADDING;
+        return column * getCellSize() + PADDING;
     }
 }
