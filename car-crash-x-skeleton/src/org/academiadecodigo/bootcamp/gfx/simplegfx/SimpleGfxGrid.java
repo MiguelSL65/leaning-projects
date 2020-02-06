@@ -2,18 +2,17 @@ package org.academiadecodigo.bootcamp.gfx.simplegfx;
 
 import org.academiadecodigo.bootcamp.grid.Grid;
 import org.academiadecodigo.bootcamp.grid.position.GridPosition;
-import org.academiadecodigo.simplegraphics.graphics.Canvas;
 import org.academiadecodigo.simplegraphics.graphics.Color;
 import org.academiadecodigo.simplegraphics.graphics.Rectangle;
-import org.w3c.dom.css.Rect;
 
 public class SimpleGfxGrid implements Grid {
 
     public static final int PADDING = 10;
-    public static final int CELLSIZE = 20;
+    public static final int CELL_SIZE = 20;
+
     private int cols;
     private int rows;
-    private Rectangle rect;
+    private Rectangle grid;
 
     public SimpleGfxGrid(int cols, int rows){
         this.cols = cols;
@@ -25,9 +24,9 @@ public class SimpleGfxGrid implements Grid {
      */
     @Override
     public void init() {
-        rect = new Rectangle(PADDING, PADDING, getCellSize() * cols, getCellSize() * rows);
-        rect.setColor(Color.BLUE);
-        rect.draw();
+        grid = new Rectangle(PADDING, PADDING, getCellSize() * cols, getCellSize() * rows);
+        grid.setColor(Color.BLUE);
+        grid.draw();
     }
 
     /**
@@ -51,7 +50,7 @@ public class SimpleGfxGrid implements Grid {
      * @return the width of the grid
      */
     public int getWidth() {
-        return rect.getWidth();
+        return grid.getWidth();
     }
 
     /**
@@ -59,7 +58,7 @@ public class SimpleGfxGrid implements Grid {
      * @return the height of the grid
      */
     public int getHeight() {
-        return rect.getHeight();
+        return grid.getHeight();
     }
 
     /**
@@ -67,7 +66,7 @@ public class SimpleGfxGrid implements Grid {
      * @return the x position of the grid
      */
     public int getX() {
-        return rect.getX();
+        return grid.getX();
     }
 
     /**
@@ -75,7 +74,7 @@ public class SimpleGfxGrid implements Grid {
      * @return the y position of the grid
      */
     public int getY() {
-        return rect.getY();
+        return grid.getY();
     }
 
     /**
@@ -83,7 +82,7 @@ public class SimpleGfxGrid implements Grid {
      * @return
      */
     public int getCellSize() {
-        return CELLSIZE;
+        return CELL_SIZE;
     }
 
     /**

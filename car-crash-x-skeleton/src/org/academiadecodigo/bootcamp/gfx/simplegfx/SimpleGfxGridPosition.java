@@ -13,27 +13,39 @@ import org.academiadecodigo.simplegraphics.graphics.Rectangle;
 public class SimpleGfxGridPosition extends AbstractGridPosition {
 
     private Rectangle rectangle;
-    private SimpleGfxGrid simpleGfxGrid;
+    private SimpleGfxGrid grid;
 
     /**
      * Simple graphics position constructor
+     *
      * @param grid Simple graphics grid
      */
-    public SimpleGfxGridPosition(SimpleGfxGrid grid){
+    public SimpleGfxGridPosition(SimpleGfxGrid grid) {
+
         super((int) (Math.random() * grid.getCols()), (int) (Math.random() * grid.getRows()), grid);
-        rectangle = new Rectangle(grid.columnToX(super.getCol()),grid.rowToY(super.getRow()),grid.getCellSize(),grid.getCellSize());
+
+        this.grid = grid;
+
+        rectangle = new Rectangle(grid.columnToX(super.getCol()), grid.rowToY(super.getRow()),
+                grid.getCellSize(), grid.getCellSize());
         show();
     }
 
     /**
      * Simple graphics position constructor
-     * @param col position column
-     * @param row position row
+     *
+     * @param col  position column
+     * @param row  position row
      * @param grid Simple graphics grid
      */
-    public SimpleGfxGridPosition(int col, int row, SimpleGfxGrid grid){
+    public SimpleGfxGridPosition(int col, int row, SimpleGfxGrid grid) {
+
         super(col, row, grid);
-        rectangle = new Rectangle(grid.columnToX(super.getCol()),grid.rowToY(super.getCol()),grid.getCellSize(),grid.getCellSize());
+
+        this.grid = grid;
+
+        rectangle = new Rectangle(grid.columnToX(super.getCol()), grid.rowToY(super.getRow()),
+                grid.getCellSize(), grid.getCellSize());
         show();
     }
 
@@ -59,23 +71,21 @@ public class SimpleGfxGridPosition extends AbstractGridPosition {
     @Override
     public void moveInDirection(GridDirection direction, int distance) {
 
-        switch (direction) {
-            case RIGHT:
-                rectangle.translate(super.getCol() + distance, 0);
-                break;
-            case LEFT:
-                rectangle.translate(super.getCol() - distance, 0);
-                break;
-            case DOWN:
-                rectangle.translate(super.getRow() + distance, 0);
-            default:
-                rectangle.translate(super.getRow() - distance, 0);
-                break;
-        }
+        int initialRow = super.getRow();
+        int initialCol = super.getCol();
+        // hide();
 
-       // hide();
-       // super.moveInDirection(direction, distance);
-      //  show();
+        super.moveInDirection(direction, distance);
+        //  show();
+
+        int finalRow = super.getRow();
+        int finalCol = super.getCol();
+
+        int distRow = finalRow - initialRow;
+        int distCol = finalCol - initialCol;
+
+        rectangle.translate(distCol * grid.getCellSize(), distRow * grid.getCellSize());
+
     }
 
     /**
