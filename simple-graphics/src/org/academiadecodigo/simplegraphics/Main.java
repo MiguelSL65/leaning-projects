@@ -15,6 +15,4 @@ public class Main {
         Picture pic = new Picture(0, 150);
         pic.draw();
     }
-
-
 }
