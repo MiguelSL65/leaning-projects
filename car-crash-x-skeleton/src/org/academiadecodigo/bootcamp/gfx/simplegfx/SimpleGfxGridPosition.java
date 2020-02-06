@@ -20,7 +20,6 @@ public class SimpleGfxGridPosition extends AbstractGridPosition {
      * @param grid Simple graphics grid
      */
     public SimpleGfxGridPosition(SimpleGfxGrid grid){
-
         super((int) (Math.random() * grid.getCols()), (int) (Math.random() * grid.getRows()), grid);
         rectangle = new Rectangle(grid.columnToX(super.getCol()),grid.rowToY(super.getRow()),grid.getCellSize(),grid.getCellSize());
         show();
@@ -60,9 +59,23 @@ public class SimpleGfxGridPosition extends AbstractGridPosition {
     @Override
     public void moveInDirection(GridDirection direction, int distance) {
 
-        hide();
-        super.moveInDirection(direction, distance);
-        show();
+        switch (direction) {
+            case RIGHT:
+                rectangle.translate(super.getCol() + distance, 0);
+                break;
+            case LEFT:
+                rectangle.translate(super.getCol() - distance, 0);
+                break;
+            case DOWN:
+                rectangle.translate(super.getRow() + distance, 0);
+            default:
+                rectangle.translate(super.getRow() - distance, 0);
+                break;
+        }
+
+       // hide();
+       // super.moveInDirection(direction, distance);
+      //  show();
     }
 
     /**
