@@ -18,13 +18,17 @@ public class SniperRifle {
         return totalShotsFired;
     }
 
-    public SniperRifle() {
-        this.bulletDamage = 50;
-        this.shotsFired = 0;
-        this.totalShotsFired = 0;
+    public int getbulletDamage() {
+        return bulletDamage;
     }
 
-    public void shoot (Destroyable destroyable) {
+    public SniperRifle() {
+        this.shotsFired = 0;
+        this.totalShotsFired = 0;
+        this.bulletDamage = 60;
+    }
+
+    public void shoot(Destroyable destroyable) {
 
         while (!destroyable.isDestroyed()) {
             shotsFired++;
@@ -38,11 +42,9 @@ public class SniperRifle {
             } else {
                 System.out.println("SNIPER: - OH CRAP! DAMN IT! I MISSED.");
             }
-
-            if (destroyable.isDestroyed()) {
-                shotsFired = 0;
-            }
         }
+
+        shotsFired = 0;
 
         System.out.println("Total shots fired " + getTotalShotsFired() + "\n");
     }

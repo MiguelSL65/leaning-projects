@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c095ca5f-9789-47e2-a089-fe34da6188a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../simple-gfx-demo/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ArabianNights/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ArabianNights/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ArabianNights/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ArabianNights/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HotelGuest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HotelGuest/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../simple-graphics/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../simple-graphics/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../simple-graphics/simple-graphics.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../simple-graphics/simple-graphics.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../simple-graphics/src/org/academiadecodigo/simplegraphics/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../simple-graphics/src/org/academiadecodigo/simplegraphics/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SniperElite/org/academiadecodigo/rhashtafaris/sniperelite/SniperRifle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/sniperelite/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/sniperelite/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/sniperelite/GameObject/AmouredEnemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/sniperelite/GameObject/AmouredEnemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/sniperelite/GameObject/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/sniperelite/GameObject/Enemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/sniperelite/SniperRifle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/sniperelite/SniperRifle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/sniperelite/org/academiadecodigo/rhashtafaris/sniperelite/barrel/Barrel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/sniperelite/org/academiadecodigo/rhashtafaris/sniperelite/barrel/Barrel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/sniperelite/org/academiadecodigo/rhashtafaris/sniperelite/barrel/BarrelType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/sniperelite/org/academiadecodigo/rhashtafaris/sniperelite/barrel/BarrelType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../car-crash-x-skeleton/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../car-crash-x-skeleton/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,31 +26,31 @@
     <session id="-2048468232">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.0" value="2" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="15" />
+          <entry key="java" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="15" />
+          <entry key="JAVA" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2067" />
+          <entry key="java" value="3222" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2067" />
+          <entry key="JAVA" value="3222" />
         </counts>
       </usages-collector>
     </session>
@@ -62,23 +69,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/sniperelite/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+            <state relative-caret-position="301">
+              <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/sniperelite/org/academiadecodigo/rhashtafaris/sniperelite/barrel/BarrelType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -86,8 +84,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/sniperelite/SniperRifle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="584">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="113">
+              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -95,20 +93,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/sniperelite/org/academiadecodigo/rhashtafaris/sniperelite/barrel/Destroyable.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/sniperelite/org/academiadecodigo/rhashtafaris/sniperelite/barrel/BarrelType.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/sniperelite/org/academiadecodigo/rhashtafaris/sniperelite/barrel/Barrel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -116,26 +105,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/sniperelite/GameObject/Enemy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+            <state relative-caret-position="270">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/sniperelite/GameObject/Tree.java">
+        <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/sniperelite/org/academiadecodigo/rhashtafaris/sniperelite/barrel/Barrel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/sniperelite/GameObject/AmouredEnemy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="270">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
         </entry>
@@ -143,8 +123,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/sniperelite/GameObject/SoldierEnemy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="90">
+              <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/sniperelite/GameObject/AmouredEnemy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -167,15 +156,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/sniperelite/Main.java" />
-        <option value="$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/sniperelite/org/academiadecodigo/rhashtafaris/sniperelite/barrel/BarrelType.java" />
         <option value="$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/sniperelite/org/academiadecodigo/rhashtafaris/sniperelite/barrel/Destroyable.java" />
         <option value="$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/sniperelite/GameObject/Tree.java" />
+        <option value="$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/sniperelite/GameObject/SoldierEnemy.java" />
+        <option value="$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/sniperelite/org/academiadecodigo/rhashtafaris/sniperelite/barrel/BarrelType.java" />
+        <option value="$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/sniperelite/org/academiadecodigo/rhashtafaris/sniperelite/barrel/Barrel.java" />
+        <option value="$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/sniperelite/GameObject/Enemy.java" />
+        <option value="$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/sniperelite/Game.java" />
         <option value="$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/sniperelite/SniperRifle.java" />
         <option value="$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/sniperelite/GameObject/AmouredEnemy.java" />
-        <option value="$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/sniperelite/GameObject/Enemy.java" />
-        <option value="$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/sniperelite/GameObject/SoldierEnemy.java" />
-        <option value="$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/sniperelite/org/academiadecodigo/rhashtafaris/sniperelite/barrel/Barrel.java" />
-        <option value="$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/sniperelite/Game.java" />
       </list>
     </option>
   </component>
@@ -221,9 +210,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -260,12 +247,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580899350408" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581005069150" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
@@ -316,17 +305,19 @@
       <workItem from="1580818841540" duration="8209000" />
       <workItem from="1580896851913" duration="1322000" />
       <workItem from="1580899397905" duration="882000" />
+      <workItem from="1580992971037" duration="2811000" />
+      <workItem from="1581000285809" duration="5061000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16085000" />
+    <option name="totallyTimeSpent" value="23957000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="198" y="49" width="1601" height="936" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49823323" visible="true" weight="0.24951892" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49823323" visible="true" weight="0.25593328" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -335,7 +326,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5017668" side_tool="true" weight="0.25334224" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.40165877" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.40089586" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3992891" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -344,7 +335,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32938388" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32938388" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32922733" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -363,10 +354,17 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/sniperelite/GameObject/Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/sniperelite/GameObject/GameObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
@@ -377,72 +375,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/sniperelite/org/academiadecodigo/rhashtafaris/sniperelite/barrel/BarrelType.java">
+    <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/sniperelite/SniperRifle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        <state relative-caret-position="113">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/sniperelite/GameObject/AmouredEnemy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="270">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/sniperelite/GameObject/SoldierEnemy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="90">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/sniperelite/GameObject/Enemy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+        <state relative-caret-position="270">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/sniperelite/org/academiadecodigo/rhashtafaris/sniperelite/barrel/Destroyable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/sniperelite/org/academiadecodigo/rhashtafaris/sniperelite/barrel/Barrel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/sniperelite/GameObject/Tree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/sniperelite/SniperRifle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="584">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="75">
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/sniperelite/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+        <state relative-caret-position="301">
+          <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/sniperelite/org/academiadecodigo/rhashtafaris/sniperelite/barrel/Barrel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/sniperelite/org/academiadecodigo/rhashtafaris/sniperelite/barrel/BarrelType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>

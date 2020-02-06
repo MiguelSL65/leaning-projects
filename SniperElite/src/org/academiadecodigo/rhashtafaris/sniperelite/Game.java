@@ -2,6 +2,7 @@ package org.academiadecodigo.rhashtafaris.sniperelite;
 
 import org.academiadecodigo.rhashtafaris.sniperelite.GameObject.*;
 import org.academiadecodigo.rhashtafaris.sniperelite.org.academiadecodigo.rhashtafaris.sniperelite.barrel.Barrel;
+import org.academiadecodigo.rhashtafaris.sniperelite.org.academiadecodigo.rhashtafaris.sniperelite.barrel.BarrelType;
 import org.academiadecodigo.rhashtafaris.sniperelite.org.academiadecodigo.rhashtafaris.sniperelite.barrel.Destroyable;
 
 public class Game {
@@ -28,7 +29,7 @@ public class Game {
             }
 
             if (Math.random() < GENERATE_BARREL_PROBABILITY) {
-                gameObjects[i] = new Barrel();
+                gameObjects[i] = new Barrel(BarrelType.getRandom());
                 continue;
             }
 
@@ -43,7 +44,7 @@ public class Game {
 
         for (GameObject gameObject : gameObjects) {
 
-            if (gameObject instanceof Tree) {
+            if (!(gameObject instanceof Destroyable)) {
                 System.out.println(gameObject.getMessage());
                 continue;
             }

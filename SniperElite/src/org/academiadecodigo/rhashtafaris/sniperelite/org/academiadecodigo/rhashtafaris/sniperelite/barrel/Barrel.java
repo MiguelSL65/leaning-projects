@@ -6,21 +6,22 @@ public class Barrel extends GameObject implements Destroyable {
 
     private BarrelType barrelType;
     private int currentDamage;
-    private boolean isDestroyed;
+    private boolean destroyed;
 
-    public Barrel() {
+    public Barrel(BarrelType barrelType) {
         this.currentDamage = 0;
-        this.isDestroyed = false;
+        this.barrelType = barrelType;
+        this.destroyed = false;
     }
 
     @Override
     public boolean isDestroyed() {
+        return destroyed;
 
-        if (currentDamage < 80) {
-            return isDestroyed = false;
-        } else {
-            return isDestroyed = true;
-        }
+    }
+
+    public void destroy() {
+        destroyed = true;
     }
 
     @Override
@@ -34,7 +35,8 @@ public class Barrel extends GameObject implements Destroyable {
         currentDamage += bulletDamage;
         System.out.println("Barrel damage is: " + currentDamage + ".");
 
-        if (currentDamage >= 80) {
+        if (currentDamage >= barrelType.getMaxDamage()) {
+            destroy();
             System.out.println("BOOOOOOOM ####### BOOOOM");
         }
     }

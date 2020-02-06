@@ -11,14 +11,15 @@ public class AmouredEnemy extends Enemy {
     @Override
     public void hit(int bulletDamage) {
 
-        if (armour > 0) {
-            armour -= bulletDamage;
-            System.out.println("Armour health is " + armour);
-        } else {
-            if (armour == 0) {
-                super.hit(bulletDamage);
-            }
+        int damage = bulletDamage;
+
+        if (armour < bulletDamage) {
+            damage = bulletDamage - armour;
+            armour = 0;
         }
+
+        super.hit(damage);
+
     }
 
     @Override

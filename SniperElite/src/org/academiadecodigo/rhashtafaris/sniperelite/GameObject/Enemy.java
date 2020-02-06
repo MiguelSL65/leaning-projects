@@ -5,11 +5,11 @@ import org.academiadecodigo.rhashtafaris.sniperelite.org.academiadecodigo.rhasht
 public class Enemy extends GameObject implements Destroyable {
 
     private int health;
-    private boolean isDestroyed;
+    private boolean destroyed;
 
     public Enemy() {
         this.health = 100;
-        this.isDestroyed = false;
+        this.destroyed = false;
     }
 
     @Override
@@ -18,14 +18,19 @@ public class Enemy extends GameObject implements Destroyable {
     }
 
     public boolean isDestroyed() {
+        return destroyed;
+    }
 
-        if (health <= 0) {
-            isDestroyed = true;
-        }
-        return isDestroyed;
+    public void destroy() {
+        destroyed = true;
     }
 
     public void hit(int bulletDamage) {
+
+        if (bulletDamage > health) {
+            health = 0;
+            destroy();
+        }
 
         health -= bulletDamage;
         System.out.println("Enemy health is: " + health);
