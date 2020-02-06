@@ -2,19 +2,13 @@ package org.academiadecodigo.rhashtafaris.hotelguest;
 
 public class Room {
 
-    private int roomNumber;
-    private boolean isFree;
+    private boolean available;
 
-    public Room (int roomNumber) {
-        this.roomNumber = roomNumber;
-        this.isFree = true;
+    public boolean isAvailable() {
+        return available;
     }
 
-    public void setIsFree(boolean isFree) {
-        this.isFree = isFree;
+    public void setAvailable(boolean available) {
+        this.available = available;
     }
-
-
-
-
 }

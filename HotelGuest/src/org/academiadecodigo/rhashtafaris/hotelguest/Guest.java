@@ -4,32 +4,48 @@ public class Guest {
 
     private String name;
     private Hotel hotel;
-    private int roomNumber;
-    private boolean isCheckIn;
+    private int roomId = -1; // means no room ID
 
     public Guest (String name) {
         this.name = name;
-        this.roomNumber = 0;
-        this.isCheckIn = false;
-    }
-
-    public Hotel getHotel() {
-        return hotel;
     }
 
     public String getName() {
-        return name;
+        return this.name;
     }
 
-    public boolean getIsCheckIn() {
-        return isCheckIn;
+    public void setHotel(Hotel hotel) {
+        this.hotel = hotel;
     }
 
-    public void checkIn(Hotel hotel) {
+    public boolean isCheckin() {
 
+        if (hotel == null || roomId != -1) {
+            return false;
+        }
+
+        roomId = hotel.isCheckIn();
+
+        if (roomId == -1) {
+            return false;
+        }
+
+        return true;
     }
 
-    public void checkOut() {
+    public boolean isCheckOut() {
 
+        if (hotel == null || roomId != -1) {
+            return false;
+        }
+
+        hotel.checkOut(roomId);
+        roomId = -1;
+        return true;
+    }
+
+    @Override
+    public String toString() {
+        return "Person name is: " + getName() + ". Hotel is " + hotel + ", roomID is " + roomId;
     }
 }
