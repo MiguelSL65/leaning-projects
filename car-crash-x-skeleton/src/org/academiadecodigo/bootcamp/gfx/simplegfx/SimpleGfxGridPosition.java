@@ -20,7 +20,6 @@ public class SimpleGfxGridPosition extends AbstractGridPosition {
      * @param grid Simple graphics grid
      */
     public SimpleGfxGridPosition(SimpleGfxGrid grid){
-
         super((int) (Math.random() * grid.getCols()), (int) (Math.random() * grid.getRows()), grid);
         rectangle = new Rectangle(grid.columnToX(super.getCol()),grid.rowToY(super.getRow()),grid.getCellSize(),grid.getCellSize());
         show();

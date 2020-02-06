@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aab81ab2-cba0-484e-9e47-54d9fc15e111" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../simple-graphics/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ArabianNights/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ArabianNights/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ArabianNights/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ArabianNights/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ArabianNights/out/production/ArabianNights/org/academiadecodigo/rhashtafaris/arabiannights/Friendly.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ArabianNights/out/production/ArabianNights/org/academiadecodigo/rhashtafaris/arabiannights/Friendly.class" afterDir="false" />
@@ -26,40 +25,7 @@
       <change beforePath="$PROJECT_DIR$/../car-crash-skeleton/src/org/academiadecodigo/carcrash/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/../car-crash-skeleton/src/org/academiadecodigo/carcrash/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../car-crash-skeleton/src/org/academiadecodigo/carcrash/cars/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../car-crash-skeleton/src/org/academiadecodigo/carcrash/cars/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../car-crash-skeleton/src/org/academiadecodigo/carcrash/field/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/../car-crash-skeleton/src/org/academiadecodigo/carcrash/field/Position.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/car-crash-x-skeleton/org/academiadecodigo/bootcamp/CarCrashX.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/car-crash-x-skeleton/org/academiadecodigo/bootcamp/CarCrashX.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/car-crash-x-skeleton/org/academiadecodigo/bootcamp/CollisionDetector.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/car-crash-x-skeleton/org/academiadecodigo/bootcamp/CollisionDetector.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/car-crash-x-skeleton/org/academiadecodigo/bootcamp/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/car-crash-x-skeleton/org/academiadecodigo/bootcamp/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/car-crash-x-skeleton/org/academiadecodigo/bootcamp/car/Car$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/car-crash-x-skeleton/org/academiadecodigo/bootcamp/car/Car$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/car-crash-x-skeleton/org/academiadecodigo/bootcamp/car/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/car-crash-x-skeleton/org/academiadecodigo/bootcamp/car/Car.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/car-crash-x-skeleton/org/academiadecodigo/bootcamp/car/CarFactory$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/car-crash-x-skeleton/org/academiadecodigo/bootcamp/car/CarFactory$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/car-crash-x-skeleton/org/academiadecodigo/bootcamp/car/CarFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/car-crash-x-skeleton/org/academiadecodigo/bootcamp/car/CarFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/car-crash-x-skeleton/org/academiadecodigo/bootcamp/car/CarType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/car-crash-x-skeleton/org/academiadecodigo/bootcamp/car/CarType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/car-crash-x-skeleton/org/academiadecodigo/bootcamp/car/Fiat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/car-crash-x-skeleton/org/academiadecodigo/bootcamp/car/Fiat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/car-crash-x-skeleton/org/academiadecodigo/bootcamp/car/Mustang.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/car-crash-x-skeleton/org/academiadecodigo/bootcamp/car/Mustang.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/car-crash-x-skeleton/org/academiadecodigo/bootcamp/gfx/lanterna/LanternaColorMapper$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/car-crash-x-skeleton/org/academiadecodigo/bootcamp/gfx/lanterna/LanternaColorMapper$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/car-crash-x-skeleton/org/academiadecodigo/bootcamp/gfx/lanterna/LanternaColorMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/car-crash-x-skeleton/org/academiadecodigo/bootcamp/gfx/lanterna/LanternaColorMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/car-crash-x-skeleton/org/academiadecodigo/bootcamp/gfx/lanterna/LanternaGrid.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/car-crash-x-skeleton/org/academiadecodigo/bootcamp/gfx/lanterna/LanternaGrid.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/car-crash-x-skeleton/org/academiadecodigo/bootcamp/gfx/lanterna/LanternaGridPosition.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/car-crash-x-skeleton/org/academiadecodigo/bootcamp/gfx/lanterna/LanternaGridPosition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/car-crash-x-skeleton/org/academiadecodigo/bootcamp/gfx/simplegfx/SimpleGfxColorMapper$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/car-crash-x-skeleton/org/academiadecodigo/bootcamp/gfx/simplegfx/SimpleGfxColorMapper$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/car-crash-x-skeleton/org/academiadecodigo/bootcamp/gfx/simplegfx/SimpleGfxColorMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/car-crash-x-skeleton/org/academiadecodigo/bootcamp/gfx/simplegfx/SimpleGfxColorMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/car-crash-x-skeleton/org/academiadecodigo/bootcamp/gfx/simplegfx/SimpleGfxGrid.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/car-crash-x-skeleton/org/academiadecodigo/bootcamp/gfx/simplegfx/SimpleGfxGrid.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/car-crash-x-skeleton/org/academiadecodigo/bootcamp/gfx/simplegfx/SimpleGfxGridPosition.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/car-crash-x-skeleton/org/academiadecodigo/bootcamp/gfx/simplegfx/SimpleGfxGridPosition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/car-crash-x-skeleton/org/academiadecodigo/bootcamp/grid/Grid.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/car-crash-x-skeleton/org/academiadecodigo/bootcamp/grid/Grid.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/car-crash-x-skeleton/org/academiadecodigo/bootcamp/grid/GridColor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/car-crash-x-skeleton/org/academiadecodigo/bootcamp/grid/GridColor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/car-crash-x-skeleton/org/academiadecodigo/bootcamp/grid/GridDirection$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/car-crash-x-skeleton/org/academiadecodigo/bootcamp/grid/GridDirection$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/car-crash-x-skeleton/org/academiadecodigo/bootcamp/grid/GridDirection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/car-crash-x-skeleton/org/academiadecodigo/bootcamp/grid/GridDirection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/car-crash-x-skeleton/org/academiadecodigo/bootcamp/grid/GridFactory$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/car-crash-x-skeleton/org/academiadecodigo/bootcamp/grid/GridFactory$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/car-crash-x-skeleton/org/academiadecodigo/bootcamp/grid/GridFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/car-crash-x-skeleton/org/academiadecodigo/bootcamp/grid/GridFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/car-crash-x-skeleton/org/academiadecodigo/bootcamp/grid/GridType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/car-crash-x-skeleton/org/academiadecodigo/bootcamp/grid/GridType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/car-crash-x-skeleton/org/academiadecodigo/bootcamp/grid/position/AbstractGridPosition$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/car-crash-x-skeleton/org/academiadecodigo/bootcamp/grid/position/AbstractGridPosition$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/car-crash-x-skeleton/org/academiadecodigo/bootcamp/grid/position/AbstractGridPosition.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/car-crash-x-skeleton/org/academiadecodigo/bootcamp/grid/position/AbstractGridPosition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/car-crash-x-skeleton/org/academiadecodigo/bootcamp/grid/position/GridPosition.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/car-crash-x-skeleton/org/academiadecodigo/bootcamp/grid/position/GridPosition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/car-crash-x-skeleton/org/academiadecodigo/bootcamp/test/LanternaGridTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/car-crash-x-skeleton/org/academiadecodigo/bootcamp/test/LanternaGridTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/car-crash-x-skeleton/org/academiadecodigo/bootcamp/test/SimpleGfxGridTest$TestResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/car-crash-x-skeleton/org/academiadecodigo/bootcamp/test/SimpleGfxGridTest$TestResult.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/car-crash-x-skeleton/org/academiadecodigo/bootcamp/test/SimpleGfxGridTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/car-crash-x-skeleton/org/academiadecodigo/bootcamp/test/SimpleGfxGridTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/gfx/simplegfx/SimpleGfxGrid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/gfx/simplegfx/SimpleGfxGrid.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/gfx/simplegfx/SimpleGfxGridPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/gfx/simplegfx/SimpleGfxGridPosition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../simple-graphics/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../simple-graphics/.idea/misc.xml" afterDir="false" />
@@ -139,22 +105,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1286" height="163" key="GridCell.Tab.0.bottom" timestamp="1580943638256">
+    <state width="1286" height="2" key="GridCell.Tab.0.bottom" timestamp="1580944724509">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="163" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580943638256" />
-    <state width="1286" height="163" key="GridCell.Tab.0.center" timestamp="1580943638256">
+    <state width="1286" height="2" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580944724509" />
+    <state width="1286" height="2" key="GridCell.Tab.0.center" timestamp="1580944724509">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="163" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1580943638256" />
-    <state width="1286" height="163" key="GridCell.Tab.0.left" timestamp="1580943638256">
+    <state width="1286" height="2" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1580944724509" />
+    <state width="1286" height="2" key="GridCell.Tab.0.left" timestamp="1580944724509">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="163" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1580943638256" />
-    <state width="1286" height="163" key="GridCell.Tab.0.right" timestamp="1580943638256">
+    <state width="1286" height="2" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1580944724509" />
+    <state width="1286" height="2" key="GridCell.Tab.0.right" timestamp="1580944724509">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="163" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1580943638256" />
+    <state width="1286" height="2" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1580944724509" />
     <state x="339" y="164" key="run.anything.popup" timestamp="1580944046466">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
