@@ -58,22 +58,20 @@ public class LinkedList {
      */
     public int indexOf(Object data) {
 
-        Node iterator = head;
+        Node iterator = head.getNext();
         int index = 0;
 
-        while (iterator.getNext() != null) {
+        while (iterator != null) {
 
-            if (iterator.getNext() == data) {
-                iterator = iterator.getNext();
-                index++;
+            if (iterator == data) {
+                return index;
             }
 
-            if (iterator.getNext() == null) {
-                return -1;
-            }
+            iterator = iterator.getNext();
+            index++;
         }
 
-        return index;
+        return -1;
     }
 
     /**
