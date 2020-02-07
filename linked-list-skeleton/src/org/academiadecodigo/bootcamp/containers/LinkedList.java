@@ -63,7 +63,7 @@ public class LinkedList {
 
         while (iterator != null) {
 
-            if (iterator == data) {
+            if (iterator.getData() == data) {
                 return index;
             }
 
