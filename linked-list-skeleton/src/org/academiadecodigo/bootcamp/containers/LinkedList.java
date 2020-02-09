@@ -38,17 +38,19 @@ public class LinkedList {
     public Object get(int index) {
 
         Node iterator = head;
+        int counter = 0;
 
-        for (int i = 0; i < index; i++) {
+        while (counter <= index) {
 
             if (iterator.getNext() == null) {
                 return null;
             }
 
             iterator = iterator.getNext();
+            counter++;
         }
 
-        return iterator.getNext();
+        return iterator.getData();
     }
 
     /**
