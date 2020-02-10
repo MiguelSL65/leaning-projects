@@ -1,9 +1,18 @@
 package org.academiadecodigo.bootcamp.containers;
 
-public class LinkedList {
+public class LinkedList <E> {
 
     private Node head;
     private int length = 0;
+    private E e;
+
+    public void set(E e) {
+        this.e = e;
+    }
+
+    public E get() {
+        return e;
+    }
 
     public LinkedList() {
         this.head = new Node(null);
@@ -83,14 +92,24 @@ public class LinkedList {
      */
     public boolean remove(Object data) {
 
-        /*Node iterator = head;
+        Node previous = head;
+        Node iterator = head.getNext();
 
-        if (indexOf(data) == 0) {
-            iterator.setData(null);
-            return true;
+        while (iterator != null) {
+
+
+            if (iterator.getData().equals(data)) {
+
+                previous.setNext(iterator.getNext());
+                length--;
+                return true;
+            }
+
+            previous = iterator;
+            iterator = iterator.getNext();
         }
-        return false; */
-        throw new UnsupportedOperationException();
+
+        return false;
     }
 
     private class Node {
