@@ -15,9 +15,19 @@ public class Katana {
     private Picture katana;
 
     public Katana() {
+        new KatanaController();
+
     }
 
     public void slash() {
+    }
+
+    public int getX() {
+        return x;
+    }
+
+    public int getY() {
+        return y;
     }
 
     public void setGrid(SimpleGfxGrid grid) {
@@ -25,24 +35,28 @@ public class Katana {
     }
 
     private class KatanaController implements MouseHandler {
+
         private Mouse mouse = new Mouse(this);
 
         KatanaController() {
-            this.initMouse();
+            initMouse();
         }
 
         void initMouse() {
             this.mouse.addEventListener(MouseEventType.MOUSE_CLICKED);
         }
 
+        @Override
         public void mouseClicked(MouseEvent event) {
-            Katana.this.x = (int)event.getX();
-            Katana.this.y = (int)event.getY();
-            Katana.this.slash();
+            x = (int)event.getX();
+            y = (int)event.getY();
+            slash();
+            System.out.println(event);
         }
 
+        @Override
         public void mouseMoved(MouseEvent event) {
+            System.out.println(event);
         }
     }
-
 }

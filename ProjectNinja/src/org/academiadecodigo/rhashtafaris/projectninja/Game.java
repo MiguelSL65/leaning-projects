@@ -1,5 +1,7 @@
 package org.academiadecodigo.rhashtafaris.projectninja;
 
+import static org.academiadecodigo.rhashtafaris.projectninja.BallFactory.createBall;
+
 public class Game {
 
     private int time = 0;
@@ -8,7 +10,7 @@ public class Game {
     private Ninja ninja;
     private Level level;
     private SimpleGfxGrid grid;
-    //private Balls[] balls;
+    private Balls[] balls;
     private Katana katana;
     private int intervalIterator;
     private LinkedList<Balls> ballsLinkedList;
@@ -24,6 +26,7 @@ public class Game {
         this.ninja.setGrid(this.grid);
         this.katana = new Katana();
         this.katana.setGrid(this.grid);
+        balls = new Balls[10];
         intervalIterator = 7;
     }
 
@@ -34,33 +37,19 @@ public class Game {
 
             Thread.sleep(delay);
 
-            for (int i = intervalIterator; i < 0 ; i--) {
+            for (int i = 0; i < balls.length; i++) {
 
-
-
-                if(i == 0){
-                    ballsLinkedList.add(BallFactory.createBall(grid));
-                }
-
+                Thread.sleep(delay);
+                balls[i] = createBall(grid);
             }
 
             ballGravity();
-
-
         }
-
-
-
     }
 
     public void ballGravity() {
 
-        for (Balls ball : ballsLinkedList){
-            ball.gravity();
+//        for (Balls ball : ballsLinkedList){
+          //  ball.gravity();
         }
-
-
-    }
-
-
 }
