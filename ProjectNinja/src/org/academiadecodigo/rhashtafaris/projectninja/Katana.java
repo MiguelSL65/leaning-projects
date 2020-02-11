@@ -12,14 +12,24 @@ public class Katana {
     private int y;
     private Balls ball;
     private SimpleGfxGrid grid;
+    private SimpleGfxPosition pos;
     private Picture katana;
+    private KatanaController controller;
 
     public Katana() {
         new KatanaController();
+    }
 
+    public SimpleGfxPosition getPos() {
+        return this.pos;
     }
 
     public void slash() {
+
+        if (ball.getPos() == ) {
+            ball.slashed();
+        }
+
     }
 
     public int getX() {
@@ -34,7 +44,7 @@ public class Katana {
         this.grid = grid;
     }
 
-    private class KatanaController implements MouseHandler {
+    public class KatanaController implements MouseHandler {
 
         private Mouse mouse = new Mouse(this);
 
