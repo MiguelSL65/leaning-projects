@@ -17,6 +17,7 @@ public class Katana {
     private KatanaController controller;
 
     public Katana() {
+       // this.katana = new Picture((double)pos.getCol(), (double)pos.getRow(), "Ninja/katana.png");
         new KatanaController();
     }
 
@@ -25,10 +26,6 @@ public class Katana {
     }
 
     public void slash() {
-
-        if (ball.getPos() == ) {
-            ball.slashed();
-        }
 
     }
 
@@ -46,9 +43,10 @@ public class Katana {
 
     public class KatanaController implements MouseHandler {
 
-        private Mouse mouse = new Mouse(this);
+        private Mouse mouse;
 
         KatanaController() {
+            this.mouse = new Mouse(this);
             initMouse();
         }
 
@@ -65,8 +63,10 @@ public class Katana {
         }
 
         @Override
-        public void mouseMoved(MouseEvent event) {
-            System.out.println(event);
+        public void mouseMoved(MouseEvent var1) {
+            pos.katanaPosition(var1.getX(), var1.getY());
+
+
         }
     }
 }

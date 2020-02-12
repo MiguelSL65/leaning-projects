@@ -51,7 +51,11 @@ public class SimpleGfxPosition extends LogicPosition{
         this.ellipse.translate((double)(afterCol - beforeCol * this.grid.getCellSize()), (double)(afterRow - beforeRow * this.grid.getCellSize()));
     }
 
-    public void ninjaPosition() {
+    public void ninjaPosition(double var1, double var2) {
+        this.rectangle.translate(var1 - this.rectangle.getX(), var2 - this.rectangle.getY());
     }
 
+    public void katanaPosition(double var1, double var2) {
+
+    }
 }

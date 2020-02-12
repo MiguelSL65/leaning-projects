@@ -1,5 +1,6 @@
 package org.academiadecodigo.rhashtafaris.projectninja;
 
+import org.academiadecodigo.simplegraphics.mouse.Mouse;
 import org.academiadecodigo.simplegraphics.mouse.MouseEvent;
 import org.academiadecodigo.simplegraphics.mouse.MouseEventType;
 import org.academiadecodigo.simplegraphics.mouse.MouseHandler;
@@ -17,11 +18,13 @@ public class Ninja implements MouseHandler {
     private Picture ninjaAfterSlash;
     private SimpleGfxPosition pos;
     private SimpleGfxGrid grid;
+    private Mouse mouse;
 
     public Ninja(SimpleGfxPosition pos) {
         this.ninjaStanding = new Picture((double)pos.getCol(), (double)pos.getRow(), "Ninja/ninjaStanding_Scale_test1.png");
         this.ninjaStanding.draw();
         this.pos = pos;
+        mouse = new Mouse(this);
     }
 
     public void setGrid(SimpleGfxGrid grid) {
@@ -29,13 +32,15 @@ public class Ninja implements MouseHandler {
     }
 
     public void initMouse() {
-        new MouseEvent(this.mouseXCordinates, this.mouseYCordinates, MouseEventType.MOUSE_CLICKED);
+        mouse.addEventListener(MouseEventType.MOUSE_CLICKED);
     }
 
-    public void mouseMoved(MouseEvent mouseEvent) {
+    public void mouseMoved(MouseEvent var1) {
+
     }
 
-    public void mouseClicked(MouseEvent mouseEvent) {
+    public void mouseClicked(MouseEvent var1) {
+        pos.ninjaPosition(var1.getX(), var1.getY());
+        ninjaStanding.translate(var1.getX() - ninjaStanding.getX(), var1.getY() - ninjaStanding.getY());
     }
-
 }
