@@ -63,6 +63,10 @@ public class SimpleGfxGrid {
         return new SimpleGfxPosition(col, row, this);
     }
 
+    public SimpleGfxPosition makeKatanaGridPosition(int col, int row) {
+        return new SimpleGfxPosition(col, row, this);
+    }
+
     public int rowToY(int row) {
         return row * this.cellSize;
     }

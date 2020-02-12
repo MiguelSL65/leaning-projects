@@ -24,7 +24,7 @@ public class Game {
         this.ninja = new Ninja(this.grid.makeNinjaGridPosition(325, 700));
         this.ninja.setGrid(this.grid);
         ninja.initMouse();
-        this.katana = new Katana();
+        this.katana = new Katana(this.grid.makeKatanaGridPosition(200, 200));
         this.katana.setGrid(this.grid);
     }
 

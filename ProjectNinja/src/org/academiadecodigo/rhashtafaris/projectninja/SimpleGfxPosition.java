@@ -27,6 +27,7 @@ public class SimpleGfxPosition extends LogicPosition{
 
     public void rectangleShow() {
         this.rectangle.setColor(Color.WHITE);
+        this.rectangle.draw();
     }
 
     public void ellipseShow() {
@@ -56,6 +57,6 @@ public class SimpleGfxPosition extends LogicPosition{
     }
 
     public void katanaPosition(double var1, double var2) {
-
+        this.rectangle.translate(var1 - this.rectangle.getY(), var2 - this.rectangle.getY());
     }
 }

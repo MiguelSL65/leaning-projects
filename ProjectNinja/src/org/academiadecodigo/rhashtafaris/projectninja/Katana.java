@@ -16,8 +16,10 @@ public class Katana {
     private Picture katana;
     private KatanaController controller;
 
-    public Katana() {
-       // this.katana = new Picture((double)pos.getCol(), (double)pos.getRow(), "Ninja/katana.png");
+    public Katana(SimpleGfxPosition pos) {
+        this.katana = new Picture((double)pos.getCol(), (double)pos.getRow(), "Ninja/katana.png");
+        this.katana.draw();
+        this.pos = pos;
         new KatanaController();
     }
 
@@ -55,18 +57,16 @@ public class Katana {
         }
 
         @Override
-        public void mouseClicked(MouseEvent event) {
-            x = (int)event.getX();
-            y = (int)event.getY();
-            slash();
-            System.out.println(event);
+        public void mouseClicked(MouseEvent var1) {
+            pos.katanaPosition(var1.getX(), var1.getY());
+            katana.translate(var1.getX() - katana.getX(), var1.getY() - katana.getY());
         }
 
         @Override
         public void mouseMoved(MouseEvent var1) {
-            pos.katanaPosition(var1.getX(), var1.getY());
-
-
+            /*pos.katanaPosition(var1.getX(), var1.getY());
+            katana.translate(var1.getX() - katana.getX(), var1.getY() - katana.getY());*/
+            
         }
     }
 }
