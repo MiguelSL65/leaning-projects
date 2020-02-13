@@ -4,16 +4,22 @@ public class FileManager {
 
     private File[] files;
     private boolean login;
-    private int fileManagerSpace;
+    private boolean logout;
+    private int maxFiles;
 
-    public FileManager(int space) {
-        this.fileManagerSpace = space;
+    public FileManager(int maxFiles) {
+        this.maxFiles = maxFiles;
     }
 
     public void createFile(String fileName) {
 
-        if (files.length == fileManagerSpace) {
-            throw
+
+    }
+
+    public File getFile(String name) {
+
+        for (int i = 0; i < files.length; i++) {
+
         }
     }
 }

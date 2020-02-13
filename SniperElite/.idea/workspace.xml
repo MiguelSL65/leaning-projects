@@ -6,13 +6,6 @@
       <change beforePath="$PROJECT_DIR$/../ArabianNights/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ArabianNights/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HotelGuest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HotelGuest/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SniperElite/org/academiadecodigo/rhashtafaris/sniperelite/SniperRifle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/sniperelite/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/sniperelite/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/sniperelite/GameObject/AmouredEnemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/sniperelite/GameObject/AmouredEnemy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/sniperelite/GameObject/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/sniperelite/GameObject/Enemy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/sniperelite/SniperRifle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/sniperelite/SniperRifle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/sniperelite/org/academiadecodigo/rhashtafaris/sniperelite/barrel/Barrel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/sniperelite/org/academiadecodigo/rhashtafaris/sniperelite/barrel/Barrel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/sniperelite/org/academiadecodigo/rhashtafaris/sniperelite/barrel/BarrelType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/sniperelite/org/academiadecodigo/rhashtafaris/sniperelite/barrel/BarrelType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../car-crash-x-skeleton/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../car-crash-x-skeleton/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,7 +19,7 @@
     <session id="-2048468232">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.6" value="1" />
@@ -96,8 +89,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/sniperelite/org/academiadecodigo/rhashtafaris/sniperelite/barrel/BarrelType.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="345">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -254,7 +247,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581005069150" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581006006222" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
@@ -306,18 +299,18 @@
       <workItem from="1580896851913" duration="1322000" />
       <workItem from="1580899397905" duration="882000" />
       <workItem from="1580992971037" duration="2811000" />
-      <workItem from="1581000285809" duration="5061000" />
+      <workItem from="1581000285809" duration="5192000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23957000" />
+    <option name="totallyTimeSpent" value="24088000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="198" y="49" width="1601" height="936" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49823323" visible="true" weight="0.25593328" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49823323" visible="true" weight="0.25593328" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -326,14 +319,14 @@
       <window_info id="Favorites" order="6" sideWeight="0.5017668" side_tool="true" weight="0.25334224" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.40089586" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.40089586" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3992891" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32938388" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32922733" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32922733" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -432,8 +425,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/sniperelite/org/academiadecodigo/rhashtafaris/sniperelite/barrel/BarrelType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>

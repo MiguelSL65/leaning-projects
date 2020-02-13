@@ -4,12 +4,15 @@ package org.academiadecodigo.rhashtafaris.projectninja;
 import org.academiadecodigo.simplegraphics.graphics.Color;
 import org.academiadecodigo.simplegraphics.graphics.Ellipse;
 import org.academiadecodigo.simplegraphics.graphics.Rectangle;
+import org.academiadecodigo.simplegraphics.pictures.Picture;
 
 public class SimpleGfxPosition extends LogicPosition{
 
     private Ellipse ellipse;
     private Rectangle rectangle;
     private SimpleGfxGrid grid;
+    private Picture katana;
+    private Picture ninja;
 
     public SimpleGfxPosition(SimpleGfxGrid grid) {
         super((int)(Math.random() * (double)(grid.getCols() - 40)), 5, grid);

@@ -8,6 +8,6 @@ public class Main {
 
         UniqueWord set = new UniqueWord(text);
 
-        set.add();
+
     }
 }

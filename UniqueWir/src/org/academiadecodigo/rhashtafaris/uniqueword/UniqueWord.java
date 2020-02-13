@@ -1,5 +1,6 @@
 package org.academiadecodigo.rhashtafaris.uniqueword;
 
+import java.util.Collections;
 import java.util.HashSet;
 import java.util.Iterator;
 
@@ -15,14 +16,11 @@ public class UniqueWord implements Iterable<String> {
 
     public void add() {
 
-        for (String word : text) {
-            hashSet.add(word);
-        }
+        Collections.addAll(hashSet, text);
 
-        System.out.println(this.hashSet);
     }
 
-
+    @Override
     public Iterator<String> iterator() {
        return hashSet.iterator();
     }

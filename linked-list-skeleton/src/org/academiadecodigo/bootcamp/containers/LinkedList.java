@@ -26,7 +26,7 @@ public class LinkedList <E> {
      * Adds an element to the end of the list
      * @param data the element to add
      */
-    public void add(Object data)  {
+    public void add(E data)  {
 
         Node node = new Node(data);
         Node iterator = head;
@@ -67,7 +67,7 @@ public class LinkedList <E> {
      * @param data element to search for
      * @return the index of the element, or -1 if the list does not contain element
      */
-    public int indexOf(Object data) {
+    public int indexOf(E data) {
 
         Node iterator = head.getNext();
         int index = 0;
@@ -90,7 +90,7 @@ public class LinkedList <E> {
      * @param data the element to remove
      * @return true if element was removed
      */
-    public boolean remove(Object data) {
+    public boolean remove(E data) {
 
         Node previous = head;
         Node iterator = head.getNext();
@@ -117,7 +117,7 @@ public class LinkedList <E> {
         private Object data;
         private Node next;
 
-        public Node(Object data) {
+        public Node(E data) {
             this.data = data;
             next = null;
         }
@@ -126,7 +126,7 @@ public class LinkedList <E> {
             return data;
         }
 
-        public void setData(Object data) {
+        public void setData(E data) {
             this.data = data;
         }
 

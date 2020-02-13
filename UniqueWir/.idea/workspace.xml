@@ -2,21 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47fe3951-1a75-4dd2-b406-a3035e9b3f33" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/uniqueword/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/uniqueword/UniqueWord.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ArabianNights/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ArabianNights/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ArabianNights/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ArabianNights/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ExceptionsExe/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ExceptionsExe/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ExceptionsExe/src/org/academiadecodigo/rhashtafaris/exceptionsexe/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ExceptionsExe/src/org/academiadecodigo/rhashtafaris/exceptionsexe/FileManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Histogram/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Histogram/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HotelGuest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HotelGuest/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../IterableInteger/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IterableInteger/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PriorityQueue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PriorityQueue/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PriorityQueue/src/org/academiadecodigo/rhashtafaris/priority/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PriorityQueue/src/org/academiadecodigo/rhashtafaris/priority/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ProjectNinja/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjectNinja/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProjectNinja/out/production/ProjectNinja/org/academiadecodigo/rhashtafaris/projectninja/Katana$KatanaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjectNinja/out/production/ProjectNinja/org/academiadecodigo/rhashtafaris/projectninja/Katana$KatanaController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProjectNinja/out/production/ProjectNinja/org/academiadecodigo/rhashtafaris/projectninja/Katana.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjectNinja/out/production/ProjectNinja/org/academiadecodigo/rhashtafaris/projectninja/Katana.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProjectNinja/src/org/academiadecodigo/rhashtafaris/projectninja/Katana.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjectNinja/src/org/academiadecodigo/rhashtafaris/projectninja/Katana.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SniperElite/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SniperElite/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/uniqueword/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/uniqueword/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/uniqueword/UniqueWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/uniqueword/UniqueWord.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../car-crash-x-skeleton/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../car-crash-x-skeleton/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../linked-list-skeleton/src/org/academiadecodigo/bootcamp/containers/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../linked-list-skeleton/src/org/academiadecodigo/bootcamp/containers/LinkedList.java" afterDir="false" />
     </list>
@@ -31,8 +30,9 @@
     <session id="-1860867005">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.0" value="4" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -47,12 +47,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1339" />
+          <entry key="java" value="1372" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1339" />
+          <entry key="JAVA" value="1372" />
         </counts>
       </usages-collector>
     </session>
@@ -61,12 +61,12 @@
     <favorites_list name="UniqueWir" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/uniqueword/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -74,8 +74,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/uniqueword/UniqueWord.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+            <state relative-caret-position="270">
+              <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,8 +99,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/uniqueword/SetList.java" />
-        <option value="$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/uniqueword/Main.java" />
         <option value="$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/uniqueword/UniqueWord.java" />
+        <option value="$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/uniqueword/Main.java" />
       </list>
     </option>
   </component>
@@ -111,8 +111,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="3" />
-    <option name="y" value="23" />
+    <option name="x" value="133" />
+    <option name="y" value="72" />
     <option name="width" value="1787" />
     <option name="height" value="986" />
   </component>
@@ -122,6 +122,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -144,15 +147,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581445852527" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581445883820" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -199,45 +199,48 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581439606636</updated>
-      <workItem from="1581439607815" duration="5270000" />
+      <workItem from="1581439607815" duration="5381000" />
+      <workItem from="1581446146960" duration="55000" />
+      <workItem from="1581503085729" duration="195000" />
+      <workItem from="1581516542506" duration="1823000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5270000" />
+    <option name="totallyTimeSpent" value="7454000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="3" y="23" width="1787" height="986" extended-state="0" />
+    <frame x="133" y="72" width="1787" height="986" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" sideWeight="0.50053024" side_tool="true" weight="0.24985674" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4994698" visible="true" weight="0.24985674" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4994698" visible="true" weight="0.2555874" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.50053024" side_tool="true" weight="0.24985674" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32979852" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32979852" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32979852" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,20 +264,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/uniqueword/SetList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/uniqueword/SetList.java" />
     <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/uniqueword/UniqueWord.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+        <state relative-caret-position="270">
+          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -283,8 +277,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/uniqueword/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>

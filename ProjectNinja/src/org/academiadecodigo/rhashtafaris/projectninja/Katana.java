@@ -54,18 +54,19 @@ public class Katana {
 
         void initMouse() {
             this.mouse.addEventListener(MouseEventType.MOUSE_CLICKED);
+            this.mouse.addEventListener(MouseEventType.MOUSE_MOVED);
         }
 
         @Override
         public void mouseClicked(MouseEvent var1) {
             pos.katanaPosition(var1.getX(), var1.getY());
-            katana.translate(var1.getX() - katana.getX(), var1.getY() - katana.getY());
+            katana.translate(var1.getX() - katana.getX() - 10, var1.getY() - katana.getY() - 10);
         }
 
         @Override
         public void mouseMoved(MouseEvent var1) {
-            /*pos.katanaPosition(var1.getX(), var1.getY());
-            katana.translate(var1.getX() - katana.getX(), var1.getY() - katana.getY());*/
+            pos.katanaPosition(var1.getX(), var1.getY());
+            katana.translate(var1.getX() - katana.getX() - 10, var1.getY() - katana.getY() - 10);
             
         }
     }
