@@ -12,36 +12,29 @@ public class Server {
 
     public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("What's the host?");
-        String host = scanner.next();
-
-        System.out.println("What's port number?");
-        int portNumber = scanner.nextInt();
-
-        System.out.println("Send a message:");
-        String message = scanner.next();
+        int portNumber = 9999;
 
         try {
-
             ServerSocket serverSocket = new ServerSocket(portNumber);
-
-            while (true) {
+            System.out.println("Server ready to chat...");
                 Socket client = serverSocket.accept();
 
+                BufferedReader keyRead = new BufferedReader(new InputStreamReader(System.in));
                 PrintWriter out = new PrintWriter(client.getOutputStream(), true);
                 BufferedReader in = new BufferedReader(new InputStreamReader(client.getInputStream()));
 
-                while (!client.isClosed()) {
-                    String line = in.readLine();
+                String receiveMsg = in.readLine();
+                String sendMsg;
 
-                    out.println(line);
+                while (true) {
+                    if(receiveMsg != null) {
+                        System.out.println(receiveMsg);
+                    }
 
-                    out.close();
-                    in.close();
-                    serverSocket.close();
+                    sendMsg = keyRead.readLine();
+                    out.println(sendMsg);
+                    out.flush();
                 }
-            }
 
             } catch(IOException e){
             e.printStackTrace();
