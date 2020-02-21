@@ -8,7 +8,7 @@ public class Wallet {
         this.myMoney = myMoney;
     }
 
-    public int getMyMoney() {
+    public int walletBalance() {
         return myMoney;
     }
 

@@ -17,5 +17,28 @@ public class Person {
         myWallet.addMoneyToWallet(amount);
     }
 
+    public void makeDeposit(int amount) {
+        myBank.deposit(amount);
+    }
 
+    public void sneakerShop(int amount) {
+        if (myWallet.walletBalance() < amount) {
+            System.out.println("You can't afford this sneakers. Go to ca$hier");
+            return;
+        }
+
+        myWallet.removeMoneyFromWallet(amount);
+        System.out.println("You spent " + amount + "$. Current balance is " + myWallet.walletBalance());
+    }
+
+    public void stripClub(int amount) {
+        if (myWallet.walletBalance() < amount) {
+            System.out.println("You can't get any action tonight ^^ ;)");
+            return;
+        }
+
+        myWallet.removeMoneyFromWallet(amount);
+        System.out.println("You spent " + amount + "$ in girls. You have "
+                + myWallet.walletBalance() + "$ in your wallet");
+    }
 }
