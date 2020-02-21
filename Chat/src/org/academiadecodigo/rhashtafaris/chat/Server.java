@@ -6,7 +6,6 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.util.Scanner;
 
 public class Server {
 
@@ -17,23 +16,22 @@ public class Server {
         try {
             ServerSocket serverSocket = new ServerSocket(portNumber);
             System.out.println("Server ready to chat...");
-                Socket client = serverSocket.accept();
+            Socket client = serverSocket.accept();
 
-                BufferedReader keyRead = new BufferedReader(new InputStreamReader(System.in));
-                PrintWriter out = new PrintWriter(client.getOutputStream(), true);
-                BufferedReader in = new BufferedReader(new InputStreamReader(client.getInputStream()));
+            PrintWriter out = new PrintWriter(client.getOutputStream(), true);
+            BufferedReader in = new BufferedReader(new InputStreamReader(client.getInputStream()));
+            BufferedReader keyRead = new BufferedReader(new InputStreamReader(System.in));
 
-                String receiveMsg = in.readLine();
-                String sendMsg;
+            while (!serverSocket.isClosed()) {
 
-                while (true) {
-                    if(receiveMsg != null) {
-                        System.out.println(receiveMsg);
-                    }
+                System.out.println("Client message: ");
+                String rcvMsg = in.readLine();
+                System.out.println(rcvMsg);
 
-                    sendMsg = keyRead.readLine();
-                    out.println(sendMsg);
-                    out.flush();
+                System.out.println("Server message: ");
+                String sendMsg = keyRead.readLine();
+                out.println(sendMsg);
+
                 }
 
             } catch(IOException e){
