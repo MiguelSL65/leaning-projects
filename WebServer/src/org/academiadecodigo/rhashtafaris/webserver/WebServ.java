@@ -6,44 +6,52 @@ import java.net.Socket;
 
 public class WebServ {
 
-    public static void main(String[] args) {
+    private int port;
+
+    public WebServ(int port) {
+        this.port = port;
+    }
+
+    public void init() {
 
         try {
 
-            int port = 7897;
-
-            ServerSocket serverSocket = new ServerSocket(port);
+            ServerSocket serverSocket = new ServerSocket(this.port);
 
             while (true) {
 
-                Socket clientSocket = serverSocket.accept();
+                new Thread(new HttpServer(serverSocket.accept())).start();
+               /* Socket clientSocket = serverSocket.accept();
 
-                BufferedReader in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
-                BufferedWriter out = new BufferedWriter(new OutputStreamWriter(clientSocket.getOutputStream()));
-                PrintWriter writer = new PrintWriter(clientSocket.getOutputStream());
+                BufferedReader reader = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
+                DataOutputStream output = new DataOutputStream(clientSocket.getOutputStream());
 
-                String line;
+                String line = reader.readLine();
+                String[] split = line.split("");
 
-                while ((line = in.readLine()) != null) {
-                    System.out.println(line);
-                    if (line.isEmpty()) {
-                        break;
-                    }
+                System.out.println(line);
+                System.out.println(split[0]);
+                System.out.println(split[1]);
+
+                if (split[0].equals("GET") && split[1].equals("/")) {
+
+                    File file = new File("/Users/codecadet/Desktop/testfile.txt");
+                    FileInputStream fileInputStream = new FileInputStream(file);
+
+                    output.writeBytes("HTTP/1.0 200 Document Follows\\r\\n\n" +
+                            "Content-Type: text/html; charset=UTF-8\\r\\n\n" +
+                            "Content-Length: <file_byte_size> \\r\\n\n" +
+                            "\\r\\n");
+                    output.write(fileInputStream.readAllBytes());
+                    output.flush();
+                    //output.close();
+                    //fileInputStream.close();
                 }
 
-                String html = "HTTP/1.0 200 Document Follows\\r\\n\n" +
-                        "Content-Type: text/html; charset=UTF-8\\r\\n\n" +
-                        "Content-Length: <file_byte_size> \\r\\n\n" +
-                        "\\r\\n";
-                out.write(html);
-
-
-
-                out.close();
-                in.close();
                 clientSocket.close();
-            }
+            } */
 
+            }
         } catch (IOException e) {
             e.printStackTrace();
         }
