@@ -22,21 +22,20 @@ public class Client {
             BufferedReader in = new BufferedReader(new InputStreamReader(client.getInputStream()));
             BufferedReader keyReader = new BufferedReader(new InputStreamReader(System.in));
 
-            while(!client.isClosed()) {
+            while (true) {
 
                 System.out.println("Client message: ");
-                String sendMsg = keyReader.readLine();
-                out.println(sendMsg);
+                String msgRcv = keyReader.readLine();
+                out.println(msgRcv);
 
                 System.out.println("Server message: ");
-                String rcvMesg = in.readLine();
-                out.println(rcvMesg);
+                String sendMsg = in.readLine();
+                out.println(sendMsg);
 
-                if(rcvMesg.equals("quit")) {
+                if(sendMsg.equals("/quit")) {
                     System.out.println("Terminating chat. See ya later.");
                     client.close();
                     out.close();
-                    in.close();
                     keyReader.close();
                 }
             }

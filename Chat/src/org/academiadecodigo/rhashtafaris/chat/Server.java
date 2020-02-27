@@ -14,24 +14,31 @@ public class Server {
         int portNumber = 9999;
 
         try {
+
             ServerSocket serverSocket = new ServerSocket(portNumber);
             System.out.println("Server ready to chat...");
             Socket client = serverSocket.accept();
 
             PrintWriter out = new PrintWriter(client.getOutputStream(), true);
-            BufferedReader in = new BufferedReader(new InputStreamReader(client.getInputStream()));
+            BufferedReader inClient = new BufferedReader(new InputStreamReader(client.getInputStream()));
             BufferedReader keyRead = new BufferedReader(new InputStreamReader(System.in));
 
-            while (!serverSocket.isClosed()) {
+            while (!client.isClosed()) {
 
                 System.out.println("Client message: ");
-                String rcvMsg = in.readLine();
+                String rcvMsg = inClient.readLine();
                 System.out.println(rcvMsg);
 
                 System.out.println("Server message: ");
                 String sendMsg = keyRead.readLine();
                 out.println(sendMsg);
 
+                if (sendMsg.equals("/quit")) {
+                    System.out.println("Connection closed.");
+                    client.close();
+                    keyRead.close();
+                    out.close();
+                }
                 }
 
             } catch(IOException e){
