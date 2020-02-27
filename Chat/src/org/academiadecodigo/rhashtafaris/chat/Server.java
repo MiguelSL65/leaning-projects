@@ -11,7 +11,7 @@ public class Server {
 
     public static void main(String[] args) {
 
-        int portNumber = 9999;
+        int portNumber = 7878;
 
         try {
 
@@ -23,7 +23,7 @@ public class Server {
             BufferedReader inClient = new BufferedReader(new InputStreamReader(client.getInputStream()));
             BufferedReader keyRead = new BufferedReader(new InputStreamReader(System.in));
 
-            while (!client.isClosed()) {
+            while (true) {
 
                 System.out.println("Client message: ");
                 String rcvMsg = inClient.readLine();
@@ -32,15 +32,8 @@ public class Server {
                 System.out.println("Server message: ");
                 String sendMsg = keyRead.readLine();
                 out.println(sendMsg);
-
-                if (sendMsg.equals("/quit")) {
-                    System.out.println("Connection closed.");
-                    client.close();
-                    keyRead.close();
-                    out.close();
+                out.flush();
                 }
-                }
-
             } catch(IOException e){
             e.printStackTrace();
         }
