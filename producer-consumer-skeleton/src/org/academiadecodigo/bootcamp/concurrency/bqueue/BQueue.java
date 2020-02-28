@@ -1,6 +1,7 @@
 package org.academiadecodigo.bootcamp.concurrency.bqueue;
 
 import java.util.PriorityQueue;
+import java.util.Queue;
 
 /**
  * Blocking Queue
@@ -10,7 +11,7 @@ import java.util.PriorityQueue;
 public class BQueue<T> {
 
     private int limit;
-    private PriorityQueue<T> queue;
+    private Queue<T> queue;
 
     /**
      * Constructs a new queue with a maximum size
@@ -29,22 +30,20 @@ public class BQueue<T> {
      *
      * @param data the data to add to the queue
      */
-    public void offer(T data) {
-
-        synchronized (this) {
+    public synchronized void offer(T data) {
 
             while (getLimit() == getSize()) {
 
                 try {
-                    wait();
+                    this.wait();
 
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
             }
+
             queue.offer(data);
-            notifyAll();
-        }
+            this.notifyAll();
 
     }
 
@@ -54,21 +53,19 @@ public class BQueue<T> {
      *
      * @return the data from the head of the queue
      */
-    public T poll() {
-
-        synchronized (this) {
+    public synchronized T poll() {
 
             while (getSize() == 0) {
 
                 try {
-                    wait();
+                    this.wait();
 
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
-                notifyAll();
+                this.notifyAll();
             }
-            return queue.poll();}
+            return queue.poll();
     }
 
     /**

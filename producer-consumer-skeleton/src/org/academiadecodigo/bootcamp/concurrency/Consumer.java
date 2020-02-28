@@ -9,25 +9,24 @@ public class Consumer implements Runnable {
 
     private final BQueue<Integer> queue;
     private int elementNum;
-    private int num;
 
     /**
      * @param queue      the blocking queue to consume elements from
      * @param elementNum the number of elements to consume
      */
     public Consumer(BQueue queue, int elementNum) {
-        this.queue = queue;
         this.elementNum = elementNum;
+        this.queue = queue;
     }
 
     @Override
     public void run() {
 
-        while (num < 10) {
+        while (elementNum > 0) {
 
             queue.poll();
-            num++;
-            System.out.println("Consumer purchased " + num);
+            elementNum--;
+            System.out.println("Consumer purchased " + elementNum);
 
             try {
                 Thread.sleep(1000);

@@ -31,6 +31,7 @@
       <change beforePath="$PROJECT_DIR$/../WebServer/src/org/academiadecodigo/rhashtafaris/webserver/WebServ.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebServer/src/org/academiadecodigo/rhashtafaris/webserver/WebServ.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../WordReader/src/org/academiadecodigo/rhashtafaris/wordreader/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WordReader/src/org/academiadecodigo/rhashtafaris/wordreader/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../WordReader/src/org/academiadecodigo/rhashtafaris/wordreader/WordReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WordReader/src/org/academiadecodigo/rhashtafaris/wordreader/WordReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/concurrency/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/concurrency/Consumer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../untitled/out/production/UDPuppercase/org/academiadecodigo/rhashtafaris/udpuppercase/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/out/production/UDPuppercase/org/academiadecodigo/rhashtafaris/udpuppercase/Server.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../untitled/src/org/academiadecodigo/rhashtafaris/udpuppercase/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/src/org/academiadecodigo/rhashtafaris/udpuppercase/Client.java" afterDir="false" />
@@ -47,6 +48,7 @@
     <session id="901605876">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -63,12 +65,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1253" />
+          <entry key="java" value="1292" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1253" />
+          <entry key="JAVA" value="1292" />
         </counts>
       </usages-collector>
     </session>
@@ -78,7 +80,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/concurrency/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
+            <state relative-caret-position="270">
               <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
             </state>
           </provider>
@@ -87,8 +89,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/concurrency/Producer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="27" column="38" lean-forward="true" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+            <state relative-caret-position="313">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
@@ -96,8 +98,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/concurrency/Consumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+            <state relative-caret-position="255">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -105,8 +107,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/concurrency/bqueue/BQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="886">
-              <caret line="71" column="5" lean-forward="true" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
+            <state relative-caret-position="443">
+              <caret line="69" column="13" lean-forward="true" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -120,8 +122,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/concurrency/Producer.java" />
-        <option value="$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/concurrency/Consumer.java" />
         <option value="$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/concurrency/bqueue/BQueue.java" />
+        <option value="$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/concurrency/Consumer.java" />
       </list>
     </option>
   </component>
@@ -184,7 +186,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582825062584" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582825826823" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -231,16 +233,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582806884791</updated>
-      <workItem from="1582806887565" duration="10079000" />
+      <workItem from="1582806887565" duration="11031000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10079000" />
+    <option name="totallyTimeSpent" value="11031000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="40" y="98" width="1527" height="923" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -252,11 +253,11 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32972324" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32972324" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32972324" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -281,28 +282,28 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/concurrency/Producer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="27" column="38" lean-forward="true" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+        <state relative-caret-position="313">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/concurrency/bqueue/BQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="886">
-          <caret line="71" column="5" lean-forward="true" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
+        <state relative-caret-position="443">
+          <caret line="69" column="13" lean-forward="true" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/concurrency/Consumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+        <state relative-caret-position="255">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/academiadecodigo/bootcamp/concurrency/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
+        <state relative-caret-position="270">
           <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
         </state>
       </provider>
