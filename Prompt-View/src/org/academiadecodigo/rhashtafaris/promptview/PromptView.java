@@ -1,6 +1,7 @@
 package org.academiadecodigo.rhashtafaris.promptview;
 
 import org.academiadecodigo.bootcamp.Prompt;
+import org.academiadecodigo.bootcamp.scanners.string.PasswordInputScanner;
 import org.academiadecodigo.bootcamp.scanners.string.StringInputScanner;
 
 class PromptView {
@@ -34,7 +35,7 @@ class PromptView {
 
     String passwordInput() {
 
-        StringInputScanner passwordInput = new StringInputScanner();
+        PasswordInputScanner passwordInput = new PasswordInputScanner();
         passwordInput.setMessage("Password: ");
         return prompt.getUserInput(passwordInput);
     }
@@ -44,4 +45,5 @@ class PromptView {
         System.out.println(welcomeMessage + "\n");
         System.out.println(askForCredentials);
     }
+
 }
