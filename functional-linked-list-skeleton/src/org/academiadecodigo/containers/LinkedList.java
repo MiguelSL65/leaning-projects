@@ -131,7 +131,14 @@ public class LinkedList<T> implements Iterable<T> {
      * @return a new list populated by the elements resultant from the mapping of the original list
      */
     public <R> LinkedList<R> map(Function<T, R> mapper) {
-        throw  new UnsupportedOperationException();
+
+        LinkedList<R> newList = new LinkedList<>();
+
+        for (T item : this) {
+            newList.add(mapper.apply(item));
+        }
+
+        return newList;
     }
 
     /**
@@ -142,7 +149,16 @@ public class LinkedList<T> implements Iterable<T> {
      */
     public LinkedList<T> filter(Predicate<T> predicate) {
 
-        throw  new UnsupportedOperationException();
+        LinkedList<T> newList = new LinkedList<>();
+
+        for (T item : this) {
+
+            if (predicate.test(item)) {
+                newList.add(item);
+            }
+        }
+
+        return newList;
     }
 
     /**
