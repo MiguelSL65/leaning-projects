@@ -9,11 +9,15 @@ import org.academiadecodigo.simplegraphics.keyboard.Keyboard;
 import org.academiadecodigo.simplegraphics.keyboard.KeyboardEvent;
 import org.academiadecodigo.simplegraphics.keyboard.KeyboardEventType;
 import org.academiadecodigo.simplegraphics.keyboard.KeyboardHandler;
+import org.academiadecodigo.simplegraphics.mouse.Mouse;
+import org.academiadecodigo.simplegraphics.mouse.MouseEvent;
+import org.academiadecodigo.simplegraphics.mouse.MouseEventType;
+import org.academiadecodigo.simplegraphics.mouse.MouseHandler;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class SimpleInputHandler implements InputHandler, KeyboardHandler {
+public class SimpleInputHandler implements InputHandler, KeyboardHandler, MouseHandler {
 
     private Map<Integer, Action> actions = new HashMap<>();
 
@@ -22,9 +26,12 @@ public class SimpleInputHandler implements InputHandler, KeyboardHandler {
         mapKeys(grid, fileHandler);
 
         Keyboard keyboard = new Keyboard(this);
+        Mouse mouse = new Mouse(this);
 
         for (Integer key : actions.keySet()) {
             KeyboardEvent event = new KeyboardEvent();
+            mouse.addEventListener(MouseEventType.MOUSE_CLICKED);
+            mouse.addEventListener(MouseEventType.MOUSE_MOVED);
             event.setKey(key);
             event.setKeyboardEventType(KeyboardEventType.KEY_PRESSED);
             keyboard.addEventListener(event);
@@ -98,5 +105,15 @@ public class SimpleInputHandler implements InputHandler, KeyboardHandler {
     @Override
     public void keyReleased(KeyboardEvent keyboardEvent) {
         //no KEY_RELEASED events necessary.
+    }
+
+    @Override
+    public void mouseClicked(MouseEvent event) {
+        
+    }
+
+    @Override
+    public void mouseMoved(MouseEvent event) {
+
     }
 }
