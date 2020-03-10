@@ -1,0 +1,7 @@
+this is a file
+i'm making a file analyzer exercise
+this is line 3
+damn it
+its ok?
+yes
+only long words
