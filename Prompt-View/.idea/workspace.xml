@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1cb254b-2125-4f4e-bd90-fedc5fc4411a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Prompt-View.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Prompt-View.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Prompt-View/org/academiadecodigo/rhashtafaris/promptview/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Prompt-View/org/academiadecodigo/rhashtafaris/promptview/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Prompt-View/org/academiadecodigo/rhashtafaris/promptview/PromptView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Prompt-View/org/academiadecodigo/rhashtafaris/promptview/PromptView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Prompt-View/org/academiadecodigo/rhashtafaris/promptview/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Prompt-View/org/academiadecodigo/rhashtafaris/promptview/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Prompt-View/prompt-view-0.2.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/promptview/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/promptview/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/promptview/PromptView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/rhashtafaris/promptview/PromptView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,22 +66,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="134" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1582986123803" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1582988593983">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1582990124250">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582988593983" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1582988593983">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582990124250" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1582990124250">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582988593983" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1582988593983">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582990124250" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1582990124250">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582988593983" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1582988593983">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582990124250" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1582990124250">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582988593983" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582990124250" />
     <state x="439" y="118" width="676" height="587" key="NewModule_or_Project.wizard" timestamp="1582986133862">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
