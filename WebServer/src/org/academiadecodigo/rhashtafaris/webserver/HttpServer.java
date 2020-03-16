@@ -7,9 +7,9 @@ public class HttpServer implements Runnable {
 
     private Socket client;
 
-    public HttpServer(Socket client) {
+    /*public HttpServer(Socket client) {
         this.client = client;
-    }
+    }*/
 
     @Override
     public void run() {
@@ -36,7 +36,6 @@ public class HttpServer implements Runnable {
                 //output.close();
                 //fileInputStream.close();
             }
-
             client.close();
 
         } catch (IOException e) {

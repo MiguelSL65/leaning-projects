@@ -77,7 +77,7 @@ public class Grid {
             case LEFT:
                 return cursor.getColumn() > 0;
             case RIGHT:
-                return cursor.getRow() < sideSize - 1;
+                return cursor.getColumn() < sideSize - 1;
         }
 
         throw new IllegalArgumentException("Grid#canMove(Cursor.Direction");

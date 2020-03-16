@@ -26,6 +26,7 @@ public class SimpleGfxPosition extends LogicPosition{
         this.grid = grid;
         this.rectangle = new Rectangle((double)this.getCol(), (double)this.getRow(), (double)(25 * grid.getCellSize()), (double)(25 * grid.getCellSize()));
         this.rectangleShow();
+        this.katana = new Picture((double)this.getCol(), (double)this.getRow(), "Ninja/katana.png");
     }
 
     public void rectangleShow() {
@@ -60,6 +61,6 @@ public class SimpleGfxPosition extends LogicPosition{
     }
 
     public void katanaPosition(double var1, double var2) {
-        this.rectangle.translate(var1 - this.rectangle.getY(), var2 - this.rectangle.getY());
+        this.katana.translate(var1 - this.rectangle.getY(), var2 - this.rectangle.getY());
     }
 }

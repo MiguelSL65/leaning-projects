@@ -1,7 +1,11 @@
 <component name="libraryTable">
   <library name="prompt-view-0.2.1-SNAPSHOT1">
     <CLASSES>
+<<<<<<< HEAD
+      <root url="jar://$PROJECT_DIR$/out/production/Prompt-View/prompt-view-0.2.1-SNAPSHOT.jar!/" />
+=======
       <root url="jar://$PROJECT_DIR$/lib/prompt-view-0.2.1-SNAPSHOT.jar!/" />
+>>>>>>> 9ba9dae0bf1a63aaa78a9952fdc6a06c0ac9ff70
     </CLASSES>
     <JAVADOC />
     <SOURCES />

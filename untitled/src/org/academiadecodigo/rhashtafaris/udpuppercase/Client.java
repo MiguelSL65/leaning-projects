@@ -4,17 +4,13 @@ import java.io.IOException;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.net.InetAddress;
-import java.net.SocketException;
 import java.util.Scanner;
 
 public class Client {
 
     public static void main(String[] args) {
 
-        String hostName = args[0];
-        int portNumber = Integer.parseInt(args[1]);
-
-        byte[] sendBuffer = new byte[1024];
+        byte[] sendBuffer;
         byte[] rcvBuffer = new byte[1024];
 
         Scanner scanner = new Scanner(System.in);

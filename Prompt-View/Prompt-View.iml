@@ -9,6 +9,9 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="prompt-view-0.2.1-SNAPSHOT" level="project" />
     <orderEntry type="library" name="prompt-view-0.2.1-SNAPSHOT1" level="project" />
+<<<<<<< HEAD
+=======
     <orderEntry type="library" name="lib" level="project" />
+>>>>>>> 9ba9dae0bf1a63aaa78a9952fdc6a06c0ac9ff70
   </component>
 </module>

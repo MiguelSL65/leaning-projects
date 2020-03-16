@@ -26,21 +26,21 @@ class PromptView {
         user.userLogin(userNameInput(), passwordInput());
     }
 
-    String userNameInput() {
+    private String userNameInput() {
 
         StringInputScanner userNameInput = new StringInputScanner();
         userNameInput.setMessage("Username: ");
         return prompt.getUserInput(userNameInput);
     }
 
-    String passwordInput() {
+    private String passwordInput() {
 
         PasswordInputScanner passwordInput = new PasswordInputScanner();
         passwordInput.setMessage("Password: ");
         return prompt.getUserInput(passwordInput);
     }
 
-    void programMessages() {
+    private void programMessages() {
 
         System.out.println(welcomeMessage + "\n");
         System.out.println(askForCredentials);
