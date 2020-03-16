@@ -1,0 +1,45 @@
+DROP DATABASE IF EXISTS library;
+
+CREATE DATABASE library;
+
+USE library;
+
+CREATE TABLE authors(
+	id INTEGER NOT NULL UNIQUE AUTO_INCREMENT,
+	name VARCHAR(256) NOT NULL,
+	PRIMARY KEY (id));
+
+CREATE TABLE publishers(
+	id INTEGER NOT NULL UNIQUE AUTO_INCREment,
+	name VARCHAR(256) NOT NULL,
+	PRIMARY KEY (id)
+);
+
+CREATE TABLE books(
+	id INTEGER NOT NULL UNIQUE AUTO_INCREMENT,
+	author_id INTEGER NOT NULL,
+	publisher_id INTEGER NOT NULL,
+	book_name VARCHAR(256) NOT NULL,
+	published_year INTEGER NOT NULL,
+	available ENUM('YES', 'NO') NOT NULL,
+	PRIMARY KEY (id),
+	FOREIGN KEY (author_id) REFERENCES authors (id),
+	FOREIGN KEY (publisher_id) REFERENCES publishers (id)
+ 	);
+
+CREATE TABLE users(
+	id INTEGER NOT NULL UNIQUE AUTO_INCREMENT,
+	name VARCHAR(256) NOT NULL,
+	city VARCHAR(256) NOT NULL,
+	birthday DATE NOT NULL,
+	PRIMARY KEY (id)
+);
+
+CREATE TABLE book_loans(
+	user_id INTEGER NOT NULL,
+	book_id INTEGER NOT NULL,
+	loan_date DATE NOT NULL,
+	PRIMARY KEY (book_id, loan_date),
+	FOREIGN KEY (user_id) REFERENCES users(id),
+	FOREIGN KEY (book_id) REFERENCES books(id)
+);
