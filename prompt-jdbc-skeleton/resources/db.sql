@@ -1,0 +1,16 @@
+DROP DATABASE IF EXISTS ac;
+
+CREATE DATABASE ac;
+
+USE ac;
+
+CREATE TABLE user(
+	id INTEGER AUTO_INCREMENT,
+	username VARCHAR(256),
+	password VARCHAR(256),
+	email VARCHAR(256),
+	firstname VARCHAR(256),
+	lastname VARCHAR(256),
+	phone VARCHAR(256),
+	PRIMARY KEY (id)
+);
