@@ -4,7 +4,7 @@ public class Rhashtafari {
 
     private String name;
     private int age;
-    private int numberOfRockets;
+    private String phoneNumber;
 
     public String getName() {
         return name;
@@ -22,11 +22,11 @@ public class Rhashtafari {
         this.age = age;
     }
 
-    public int getNumberOfRockets() {
-        return numberOfRockets;
+    public String getPhoneNumber() {
+        return phoneNumber;
     }
 
-    public void setNumberOfRockets(int numberOfRockets) {
-        this.numberOfRockets = numberOfRockets;
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
     }
 }

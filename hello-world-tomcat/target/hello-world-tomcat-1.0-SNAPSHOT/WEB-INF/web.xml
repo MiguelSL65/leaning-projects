@@ -5,13 +5,17 @@
          version="4.0">
 
     <servlet>
-        <servlet-name>rhasta</servlet-name>
-        <servlet-class>org.academiadecodigo.rhashtafaris.tomcat.RhashtaServlet</servlet-class>
+        <servlet-name>dispatcherServlet</servlet-name>
+        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+        <init-param>
+            <param-name>contextConfigLocation</param-name>
+            <param-value>WEB-INF/spring/config.xml</param-value>
+        </init-param>
     </servlet>
 
     <servlet-mapping>
-        <servlet-name>rhasta</servlet-name>
-        <url-pattern></url-pattern> <!-- root -->
+        <servlet-name>dispatcherServlet</servlet-name>
+        <url-pattern>/</url-pattern> <!-- root -->
     </servlet-mapping>
 
 </web-app>
