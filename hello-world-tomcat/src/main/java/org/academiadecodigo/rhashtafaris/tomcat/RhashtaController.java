@@ -1,7 +1,6 @@
 package org.academiadecodigo.rhashtafaris.tomcat;
 
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 @Controller
@@ -19,9 +18,7 @@ public class RhashtaController {
     }
 
     @PostMapping("/saveRasta")
-    public String processingInfo(@ModelAttribute("rasta") Rhashtafari rasta, Model model) {
-
-        model.addAttribute(new Rhashtafari());
+    public String processingInfo(@ModelAttribute("rasta") Rhashtafari rasta) {
 
         return "index";
     }

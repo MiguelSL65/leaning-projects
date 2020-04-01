@@ -14,8 +14,7 @@
 <body>
 <br>
 <br>
-<h1>Welcome, Enter RHASHTAFARI Details</h1>
-<hr />
+<h1>Welcome, Enter RHASHTAFARI Details:</h1>
 
 <form:form action="saveRasta" method="post" modelAttribute="rasta">
     <table>
