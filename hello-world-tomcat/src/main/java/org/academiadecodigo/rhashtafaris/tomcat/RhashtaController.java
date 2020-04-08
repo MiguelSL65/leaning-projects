@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 public class RhashtaController {
 
     @ModelAttribute("rasta")
-    public Rhashtafari setUp() {
+    public Rhashtafari emptyForm() {
         return new Rhashtafari();
     }
 
@@ -18,7 +18,7 @@ public class RhashtaController {
     }
 
     @PostMapping("/saveRasta")
-    public String processingInfo(@ModelAttribute("rasta") Rhashtafari rasta) {
+    public String displayInsertedInfoOnForm(@ModelAttribute("rasta") Rhashtafari rasta) {
 
         return "index";
     }
