@@ -8,4 +8,22 @@
  *  was provided or if the value provided was not a number
  */
 exports.fizzBuzz = function(num) {
+
+    if (num % 3 === 0 && num % 5 === 0) {
+        return "fizzbuzz";
+    } 
+    
+    if (num % 3 === 0) {
+        return "fizz";
+    } 
+
+    if (num % 5 === 0) {
+        return "buzz";
+    } 
+
+    if (isNaN(num)) {
+        return false;
+    } 
+    
+    return num;
 };
